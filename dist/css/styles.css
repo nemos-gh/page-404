@@ -77,10 +77,12 @@ a::after {
 }
 
 .item {
+  padding: 0 30px;
   color: white;
   font-size: 1.3em;
   font-family: 'Poppins', 'Helvetica Neue', serif;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .err-404 {
