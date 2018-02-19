@@ -101,6 +101,9 @@ a::after {
   line-height: 1.2em;
   font-size: 6em;
   font-weight: 600;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .err-404::after {
