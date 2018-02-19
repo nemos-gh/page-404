@@ -1,3 +1,12 @@
+ /* Settings */
+
+ :root {
+   --filter: #f46468, #28184f;
+   --primary: white;
+   --secondary: gold;
+   --main-font: 'Poppins', 'Helvetica Neue', serif;
+ }
+ 
  /* General Styles */
  
  html,
@@ -10,7 +19,7 @@
  a:focus,
  a:visited {
   position: relative;
-  color: gold;
+  color: var(--secondary);
   text-decoration: none;
 }
   
@@ -21,7 +30,7 @@ a::after {
   left: 0;
   width: 100%;
   height: 1px;
-  background: gold;
+  background: var(--secondary);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s;
@@ -49,7 +58,7 @@ a::after {
 /* Video styles */
 
  .filter {
-   background: linear-gradient(#f46468, #28184f);
+   background: linear-gradient(var(--filter));
    opacity: 0.85;
  }
 
@@ -78,9 +87,9 @@ a::after {
 
 .item {
   padding: 0 30px;
-  color: white;
+  color: var(--primary);
   font-size: 1.3em;
-  font-family: 'Poppins', 'Helvetica Neue', serif;
+  font-family: var(--main-font);
   letter-spacing: 1px;
   text-align: center;
 }
@@ -98,10 +107,10 @@ a::after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 15%;
-  width: 70%;
+  left: 25%;
+  width: 50%;
   height: 1px;
-  background: white;
+  background: var(--primary);
   opacity: 0.2;
 }
 
