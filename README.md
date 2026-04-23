@@ -2,4 +2,4 @@
 
 Page 404 with full page video background and duotone filter.
 
-[Check the Demo](http://aboutn.com/gh/404-concept)
+[Check the Demo](http://codenorth.dev/gh/404-concept)
